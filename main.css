@@ -155,7 +155,15 @@ nav {
   top: 69px;
   font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
     sans-serif;
-  background: -webkit-gradient(
+  background: rgb(37, 36, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(37, 36, 36, 1) 0%,
+    rgba(100, 100, 100, 1) 54%,
+    rgba(112, 111, 111, 1) 56%,
+    rgba(215, 214, 214, 1) 99%
+  );
+  /* background: -webkit-gradient(
       linear,
       0 0,
       0 100%,
@@ -167,7 +175,7 @@ nav {
     -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
     url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC)
       no-repeat 50% 50%,
-    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080)); */
 }
 
 footer {
@@ -225,7 +233,6 @@ nav input {
   height: 19px;
   border: 1px solid #999;
   border-radius: 12px;
-
   background: rgb(85, 85, 85);
   background: linear-gradient(
     0deg,
