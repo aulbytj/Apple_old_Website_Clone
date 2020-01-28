@@ -132,8 +132,8 @@ section {
 
 body {
   line-height: 1;
-  font-family: "Lucida Grande", "Trebuchet MS", "Lucida Sans Unicode",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial,
+    sans-serif;
 }
 
 ol,
@@ -201,7 +201,7 @@ footer {
 }
 
 footer a {
-  color: #0088cc;
+  color: #08c;
 }
 
 footer p {
