@@ -1,0 +1,356 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+a.icons,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h2 {
+  display: none;
+}
+
+footer a {
+  color: #08c;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav {
+  margin: 0 auto;
+  width: 980px;
+  height: 36px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  position: relative;
+  top: 69px;
+  font-size: 12px;
+  font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  background: linear-gradient(rgb(140, 140, 140), rgb(110, 110, 110) 50%, rgb(90, 90, 90) 51%, rgb(130, 130, 130));
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  font-size: 10.0008px;
+  color: #6e6e6e;
+  padding: 10.0008px 0 26.0012px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+nav ul {
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 845px;
+}
+
+.ads>ul {
+  padding: 0;
+  margin: 2px 0;
+}
+
+.footer-content2>ul {
+  padding: 0;
+  float: right;
+  margin: 0;
+}
+
+footer ul:nth-of-type(1) {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  padding: 8px 12px;
+  display: table-cell;
+  overflow: hidden;
+  border: 1px solid rgb(100, 100, 100);
+}
+
+nav li:nth-of-type(9) {
+  width: 106px;
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  top: 0;
+}
+
+.search {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  padding: 0;
+  height: auto;
+}
+
+nav input {
+  width: 109px;
+  height: 19px;
+  border: 1px solid #999;
+  background-color: rgba(166, 165, 166, 0.2);
+  border-bottom: 1px solid #8d8d8d;
+  border-left: none;
+  border-radius: 10px;
+  border-right: none;
+  border-top: 2px solid #393939;
+  text-shadow: 0 1px 1px black;
+}
+
+.magnifying-glass {
+  margin: 0;
+  position: absolute;
+  opacity: 1;
+  width: 17px;
+  height: 17px;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgaWQ9Im9yaWdpbmFsLWljb24iIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xNTcuNjY2NjcsMTQzLjMzMzMzbC0xNC4zMzMzMywxNC4zMzMzM2wtNDMsLTQzdi0xNC4zMzMzM2gxNC4zMzMzM3oiPjwvcGF0aD48cGF0aCBkPSJNNjQuNSwxMTQuNjY2NjdjLTI3Ljk1LDAgLTUwLjE2NjY3LC0yMi4yMTY2NyAtNTAuMTY2NjcsLTUwLjE2NjY3YzAsLTI3Ljk1IDIyLjIxNjY3LC01MC4xNjY2NyA1MC4xNjY2NywtNTAuMTY2NjdjMjcuOTUsMCA1MC4xNjY2NywyMi4yMTY2NyA1MC4xNjY2Nyw1MC4xNjY2N2MwLDI3Ljk1IC0yMi4yMTY2Nyw1MC4xNjY2NyAtNTAuMTY2NjcsNTAuMTY2Njd6TTY0LjUsMjguNjY2NjdjLTIwLjA2NjY3LDAgLTM1LjgzMzMzLDE1Ljc2NjY3IC0zNS44MzMzMywzNS44MzMzM2MwLDIwLjA2NjY3IDE1Ljc2NjY3LDM1LjgzMzMzIDM1LjgzMzMzLDM1LjgzMzMzYzIwLjA2NjY3LDAgMzUuODMzMzMsLTE1Ljc2NjY3IDM1LjgzMzMzLC0zNS44MzMzM2MwLC0yMC4wNjY2NyAtMTUuNzY2NjcsLTM1LjgzMzMzIC0zNS44MzMzMywtMzUuODMzMzN6Ij48L3BhdGg+PHBhdGggZD0iTTkwLjQ3MDM3LDk2LjA0MjI1bDUuMDY4MzEsLTUuMDY2ODlsMTcuNzM0MTIsMTcuNzM5MDdsLTUuMDY4MzEsNS4wNjY4OXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  right: 90px;
+  background-size: 14px;
+}
+
+.main {
+  position: relative;
+  top: -10px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.hero {
+  grid-column: 2;
+  grid-row: 1 / 4;
+  background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+  background-size: 1440px 1315px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 747px;
+}
+
+.ads {
+  width: 100%;
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.ads>ul>li {
+  display: inline-block;
+}
+
+.ads img {
+  width: 356.1px;
+  height: 200px;
+}
+
+.wywss {
+  position: relative;
+  top: 175px;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.wywss-text {
+  position: absolute;
+}
+
+.first {
+  margin-bottom: -12px;
+}
+
+.first img {
+  height: 104px;
+  width: 980px;
+}
+
+.second {
+  margin-bottom: 25px;
+}
+
+.second img {
+  height: 82px;
+  width: 980px;
+}
+
+.third {
+  height: 31px;
+  width: 980px;
+  overflow: hidden;
+}
+
+.wrapper {
+  grid-column: 2;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  margin: 0;
+  padding: 22.0012px 0 0 0;
+}
+
+.footer-content2 {
+  display: table;
+  margin: 0 auto;
+  padding: 15.0012px 0 0 0;
+}
+
+.footer-content2>ul>li {
+  display: inline-block;
+  border-left: 1px solid #6e6e6e;
+  margin: 0 0 0 6.0048px;
+  padding: 0 0 0 6.0048px;
+}
+
+.footer-content2>ul>li.first {
+  border: none;
+}
+
+.copyright {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  flex-direction: row;
+  padding: 15.0012px 0 0 0;
+}
+
+.copyright>ul>li {
+  display: inline;
+  border-left: 1px solid #6e6e6e;
+  margin: 0 0 0 6.0048px;
+  padding: 0 0 0 6.0048px;
+}
