@@ -154,7 +154,11 @@ nav {
   top: 69px;
   font-size: 12px;
   font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-  background: linear-gradient(rgb(140, 140, 140), rgb(110, 110, 110) 50%, rgb(90, 90, 90) 51%, rgb(130, 130, 130));
+  background:
+    linear-gradient(rgb(140, 140, 140),
+      rgb(110, 110, 110) 50%,
+      rgb(90, 90, 90) 51%,
+      rgb(130, 130, 130));
 }
 
 footer {
@@ -178,12 +182,12 @@ nav ul {
   width: 845px;
 }
 
-.ads > ul {
+.ads>ul {
   padding: 0;
   margin: 2px 0;
 }
 
-.footer-content2 > ul {
+.footer-content2>ul {
   padding: 0;
   float: right;
   margin: 0;
@@ -270,7 +274,7 @@ nav input {
   grid-row: 5;
 }
 
-.ads > ul > li {
+.ads>ul>li {
   display: inline-block;
 }
 
@@ -333,14 +337,14 @@ nav input {
   padding: 15.0012px 0 0 0;
 }
 
-.footer-content2 > ul > li {
+.footer-content2>ul>li {
   display: inline-block;
   border-left: 1px solid #6e6e6e;
   margin: 0 0 0 6.0048px;
   padding: 0 0 0 6.0048px;
 }
 
-.footer-content2 > ul > li.first {
+.footer-content2>ul>li.first {
   border: none;
 }
 
@@ -352,7 +356,7 @@ nav input {
   padding: 15.0012px 0 0 0;
 }
 
-.copyright > ul > li {
+.copyright>ul>li {
   display: inline;
   border-left: 1px solid #6e6e6e;
   margin: 0 0 0 6.0048px;
